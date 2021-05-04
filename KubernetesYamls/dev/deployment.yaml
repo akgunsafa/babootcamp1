@@ -23,6 +23,8 @@ spec:
       - name: bootcamp-html
         image: safaakgun/babootcamp:v$DOCKER_BUILD_NUMBER
         ports:
-        - containerPort: 80
-        - nodePort :30006
+        - containerPort: 80      
+        - nodePort: 30005
+        
+        
         
